@@ -1,79 +1,92 @@
-// alert('this is java script fundamental class');
- //console.log('logging output in console');
- //document.write('writing data on web page');
+//alert("This is Java Script Fundamental Class");
+//console.log("Hello World");
+//document.write("welcome To The Java");
 
- //var a;
- //var a=100;
- //console.log(a);
+//var a ;
+//var a=100;
+//console.log(a);
 
- //var a=100,b='100',c=false,d=null,e;
+//var a=100,b='100',c=false,d=null,e;
 
- //console.log(a,b,c,d,e);
-
- //console.log(typeof(b));
 
  //Arithmetic operators;
 // +,-,*,/,%
 
- //var a=20;
- //var b=10;
-// var c=a*b;
- //console.log(c);
+//var a=10;
+//var b=20;
+//var c=a+b;
+//var d= a-b;
+//var e= a*b;
+//var f=a/b;
+//console.log(c,d,e,f);
 
 // comparision operators;
  //<,>,<=,>=,!=,==,===
 
- //var a=10, b=20;
+ //var a=10;
+ //var b=20;
+ //console.log(a>b);
+ //console.log(a<b);
  //console.log(a>=b);
+ //console.log(a<=b);
+ //console.log(a!=b);
+ 
+
 
 //logical operators;
 // &&,||,!
 
- //var a=10, b=20;
+  // var a=10, b=20;
  //console.log(a<b || a<5);
-  //console.log(!a==b);
+ //console.log(!a==b);
 
   //Array
 
-   //var arr=[10,'abc',true,null,undefined];
+ //var arr =[100,'100',true,null, undefined];
+ //console.log(arr);
+ //console.log(arr[0]);
+ //console.log(arr[1]);
+ //console.log(arr[2]);
+ //console.log(arr[3]);
+ //console.log(arr[4]);
+ //console.log(arr[5]);
+//console.log(arr.length)
+ //how to store data outside array
+  //var newArr=[];
+  //newArr[0]=10; 
+  //newArr[2]='hello';
+  //console.log(newArr);
 
-    //console.log(arr);
-   //console.log(arr[1]);
-   //console.log(arr.length);
-   //console.log(arr[10]);
- 
+  //object   
 
-   //how to store data outside array
-    //var newArr=[];
-    //newArr[0]=10;
-    //newArr[2]='hello';
-   //console.log(newArr);
-
-    //object
-
-    //var obj={
-   //a:10,
-   //b:'hello',
-   //c:true,
-   //d:null,
-   //e:undefined,
-   //f:[10,'100',true,null,undefined]
-    //}
+ // var obj={
+  //sana:'01',
+  //asma:02,
+  //basira:true,
+  //afifa:null,
+  //nida:undefined, 
+  //nomaan:[1,2,3,4],
+//};
 
 
 
-    //console.log(obj);
-    //[]
-    //console.log(obj['c']);
-   //console.log(obj.d);
-    //console.log(obj.f[3]);
-    //obj.g ='new property';
-    //console.log(obj);
+  //console.log(obj ["nomaan"]);
+  
+  //console.log(obj["basira"]);
+  //console.log(obj["afifa"]);
+  //console.log(obj.sana);
+  //console.log(obj.asma);
+  //console.log(obj.basira);
+  //console.log(obj.noone);
 
-    //var newobj={};
-    //newobj.a=10;
-    //newobj.b='hello';
-    //console.log(newobj);
+  //var newObj={
+  //  name: 'shahabaz',
+    //age: 35,
+   // accountnumber:1234567,
+    //balance: 20000
+  //};
+  //console.log(newObj);
+
 
     //function
     //syntax
@@ -172,8 +185,65 @@
        // var fruits=['banana','orange','mango'];
        //fruits.splice(4,0,'badam','pista');
        // console.log(fruits);
-       g
+       
 
 
 
 
+
+//rest and spread operator in array
+
+//rest 
+//function addNumbers(a,b,c,...others ){
+  //console.log(others)
+ //return a+b+c;
+//}
+//const res=addNumbers(2,3,4,5,6)
+//console.log(res)
+
+//spread
+ //var names=["armaan","arhaan","azhaan","rehaan"];
+ //function getNames(name1,name2,name3,name4){
+ // console.log(name1,name2,name3,name4)
+ //}
+ //getNames(names[0],names[1],names[2])
+//getNames(...names)
+
+//In Objects
+//var students={
+  //name:"azhaan",
+  //age:"10",
+  //hobbies:["playing","dancing"]
+
+//}
+
+//const age=students.age;
+//const {...rest}=students;
+//console.log(rest)
+
+//va  r newstudent={
+   //...students,
+  // age:"15"
+//}
+//console.log(newstudent)
+//selectors in DOM
+
+
+//console.log(document)
+
+//const worldElement= document.getElementById("wor"):returns a single element
+//console.log(worldElement);
+//document.getElementsByClassName("text"):returns a collection of elements
+
+
+//console.log(textArr);
+
+ //let text=document.getElementsByTagName("p");-->returns a collection of elements 
+//console.log(text);
+
+//const select=document.querySelector(".result p");-->returns a single element
+
+//console.log(select);
+
+//const select=document.querySelectorAll(".result p");-->returns a collecton of elements
+//console.log(select);
